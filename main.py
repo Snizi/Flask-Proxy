@@ -41,7 +41,7 @@ class ProxyHandler:
             return str(e)
 
 app = Flask(__name__)
-app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
+app.secret_key = b'E&p%baPCyPGFaTfveoDeqMLs%gpEi*ARxtxttmh#DGsEZLcSjgw@Fd9UsU^8GwQp9q23Lrhr6G87Bkpm5EUhX3j2eV2ZMUKiXqjZpK2tLQx7UCFjR#&*fMYNzv@&W%vf'
 
 @app.route('/')
 def index():
