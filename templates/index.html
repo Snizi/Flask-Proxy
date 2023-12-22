@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proxy em Flask</title>
+  </head>
+
+  <body>
+    <h1>Proxy em Flask</h1>
+    <form action="/proxy" method="post">
+      <label for="site">Insira a URL do site:</label>
+      <input type="text" name="site" id="site" placeholder="http://" />
+      <input type="submit" value="Acessar" />
+    </form>
+    <form action="/logout" method="post">
+      <input id="logout" type="submit" value="Logout" />
+    </form>
+  </body>
+</html>
